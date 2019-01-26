@@ -1,0 +1,34 @@
+body {
+    box-sizing: border-box;
+    color: #777777;
+    background-image: url("white-waves.png");
+}
+
+.Header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+ul {
+    list-style: none;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+#Kelsey {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #666666;
+}
+
+h2 {
+    float: left;
+}
