@@ -1,23 +1,33 @@
 body {
-    background-image: url("assets/images/white-waves.png");
+    background-image: url("../images/morocco.png");
     background-size: auto;
-    background-color: pink;
     color: #777777;
     height: 100%;
     position: relative;
 }
 
-Header {
+.grey {
+    background-color: #cccccc;
+    height: 65px;
+    width: 100%;
+}
+
+.white {
     background-color: #ffffff;
-    border-color: #cccccc;
+    height: 55px;
+    width: 100%;
+}
+
+Header {
+    width: 100%;
+    background-color: #ffffff;
     height: 50px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-color: #dddddd;
 }
+
 
 ul {
     list-style: none;
-    background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
 }
@@ -29,7 +39,7 @@ li {
 #Kelsey {
     background-color: #4aaaa5;
     color: #ffffff;
-    height: 50px;
+    height: 56px;
     font-size: .30in;
     width: 200px;
     text-align: center;
@@ -65,7 +75,8 @@ img {
 }
 
 label {
-    display: block;
+    padding: 10px;
+
 }
 
 input {
@@ -73,16 +84,18 @@ input {
 }
 
 #text {
-    width: 100%;
+    width: 97%;
 }
 
 #email {
-    width: 100%;
+    width: 97%;
 }
 
 #message {
-    width: 100%;
+    margin-top: 20px;
+    width: 97%;
     height: 120px;
+    margin-bottom: 20px;
 }
 
 footer {
