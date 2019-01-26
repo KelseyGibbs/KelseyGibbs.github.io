@@ -1,9 +1,6 @@
 body {
-    box-sizing: border-box;
-    color: #777777;
-    background-image: url("white-waves.png");
+    background-color: black;
 }
-
 .Header {
     background-color: #ffffff;
     border-color: #cccccc;
@@ -25,10 +22,11 @@ li {
     color: #ffffff;
 }
 
+main {
+    background: red;
+    padding: 960 px; 
+}
 footer {
     background-color: #666666;
 }
 
-h2 {
-    float: left;
-}
