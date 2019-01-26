@@ -34,12 +34,20 @@ ul {
 
 li {
     display: inline-block;
+    font-size: .20in;
+    padding-top: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+li a {
+    text-decoration: none;
 }
 
 #Kelsey {
     background-color: #4aaaa5;
     color: #ffffff;
-    height: 56px;
+    height: 39px;
+    padding-top: 16px;
     font-size: .30in;
     width: 200px;
     text-align: center;
@@ -47,14 +55,15 @@ li {
 
 .buttons {
     float: right;
+    text-decoration: none;
 }
 
 main {
     clear: both;
     background: #ffffff;
-    border-color: #dddddd;
+    border: 5px solid #777777;
     width: 960px;
-    margin: 100px auto;
+    margin: 90px auto;
 }
 
 .juice {
@@ -85,17 +94,21 @@ input {
 
 #text {
     width: 97%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #email {
     width: 97%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #message {
     margin-top: 20px;
-    width: 97%;
+    width: 99%;
     height: 120px;
-    margin-bottom: 20px;
+    resize: none;
 }
 
 footer {
