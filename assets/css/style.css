@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/morocco.png");
+    background-image: url("../images/white-waves.png");
     background-size: auto;
     color: #777777;
     height: 100%;
@@ -41,6 +41,7 @@ li {
 
 li a {
     text-decoration: none;
+    color: #777777;
 }
 
 #Kelsey {
@@ -61,7 +62,7 @@ li a {
 main {
     clear: both;
     background: #ffffff;
-    border: 5px solid #777777;
+    border: 5px solid #cccccc;
     width: 960px;
     margin: 90px auto;
 }
